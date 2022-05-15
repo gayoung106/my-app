@@ -14,10 +14,16 @@ import Reducer from "./components/3-3.Hooks/Reducer";
 import WelcomeDialog from "./components/3-5.Composition/WelcomeDialog";
 import Dialog from "./components/3-6.Composition2/Dialog";
 import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
+import Button from "./components/3-7.HOC/Button";
+import Input from "./components/3-7.HOC/Input";
 function App() {
   return (
     <div className="App">
-        <ThankyouDialog />
+        <Input />
+        <br />
+        <br />
+        <Button />
+        {/*<ThankyouDialog />*/}
         {/*<Dialog />*/}
         {/*<WelcomeDialog />*/}
         {/*<State />*/}
